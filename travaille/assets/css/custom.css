@@ -45,3 +45,32 @@
 	color: #ffffffff !important;
 	border-color: rgb(24, 109, 174) !important;
 }
+
+.connecter{
+	display: block;
+} 
+
+.non_connecter{
+	display: none;
+}
+
+.block
+{
+	text-align: center;
+	display: block;
+	border: 3px solid red;
+	height: 50%;
+}
+
+.height_login
+{
+	height:653.838px;
+}
+
+.lien_login
+{
+	color: #ffffffff !important;
+	height: 125px !important;
+	line-height: 100px !important;
+}
+
