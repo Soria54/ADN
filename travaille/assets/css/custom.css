@@ -67,9 +67,20 @@
 	padding-bottom: 30px !important;
 }
 
+
+.padding_home_entreprise{
+	padding-top: 12px !important;
+	padding-bottom: 0px !important;
+}
+
 .police_titre_home
 {
 	font-size: 50px !important;
+}
+
+.police_titre_home_Entreprise
+{
+	font-size: 45px !important;
 }
 
 .police_sous_titre_home
