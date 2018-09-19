@@ -88,6 +88,36 @@
 						<!-- Navigation -->
 						<div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg g-mr-40--lg" id="navBar">
 							<ul class="navbar-nav text-uppercase g-pos-rel g-font-weight-600 ml-auto">
+
+								<!-- home -->
+				                <li class="hs-has-sub-menu nav-item  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+				                  <a id="nav-link-pages" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-pages">home</a>
+
+				                  <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu-pages" aria-labelledby="nav-link-pages">
+
+
+				                    <!-- Artisan -->
+				                    <li class="dropdown-item">
+				                      <a class="nav-link" href="Home_Artisan.html">Home Artisan</a>
+				                    </li>
+				                    <!-- Artisan -->
+
+				                    <!-- Entreprise -->
+				                    <li class="dropdown-item ">
+				                      <a class="nav-link" href="Home_Entreprise.html">Home Entreprise</a>
+				                    </li>
+				                    <!-- End Entreprise -->
+
+				                    <!-- home-particulier -->
+				                    <li class="dropdown-item ">
+				                      <a class="nav-link" href="home-particulier.html">Home Particulier</a>
+				                    </li>
+				                    <!-- End home-particulier -->
+
+				                  </ul>
+				                </li>
+				                <!-- End home -->
+
 								<!-- Intro -->
 								<li class="nav-item  g-mx-10--lg g-mx-15--xl">
 									<a href="#Présentation_ADN" class="nav-link g-py-7 g-px-0">Présentation</a>
@@ -107,6 +137,7 @@
 						</div>
 						
 						<!-- End Navigation -->
+						<div class="linear-gradient"></div>
 					</div>
 					
 				</nav>
@@ -125,13 +156,17 @@
 
             <!-- Form -->
             <form class="g-py-15">
-              
-                 <div class="mb-4">
-                <label class="g-color-gray-dark-v2 g-font-weight-600 g-font-size-13">Nom de l'entreprise, association ou collectivité:</label>
-                <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded g-py-15 g-px-15" type="text" name="lname">
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 mb-4">
+                  <label class="g-color-gray-dark-v2 g-font-weight-600 g-font-size-13">Prénom:</label>
+                  <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded g-py-15 g-px-15"type="text" name ="fname" ><br>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 mb-4">
+                  <label class="g-color-gray-dark-v2 g-font-weight-600 g-font-size-13">Nom:</label>
+                 <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--hover rounded g-py-15 g-px-15" type="text" name ="lname" ><br>
+                </div>
               </div>
-            
-          
 
               <div class="mb-4">
                 <label class="g-color-gray-dark-v2 g-font-weight-600 g-font-size-13">Email:</label>
