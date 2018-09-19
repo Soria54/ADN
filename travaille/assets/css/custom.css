@@ -27,7 +27,7 @@
 .block_center{
 	margin-left: auto;
  	margin-right: auto;
-
+ 	justify-content: center;
 }
 
 .Notifications_Panel{
@@ -46,21 +46,6 @@
 	border-color: rgb(24, 109, 174) !important;
 }
 
-.connecter{
-	display: block;
-} 
-
-.non_connecter{
-	display: none;
-}
-
-.block
-{
-	text-align: center;
-	display: block;
-	border: 3px solid red;
-	height: 50%;
-}
 
 .height_login
 {
@@ -74,3 +59,42 @@
 	line-height: 100px !important;
 }
 
+.top_zero{
+	padding-top: 36px !important;
+}
+
+.bot_40{
+	padding-bottom: 30px !important;
+}
+
+.police_titre_home
+{
+	font-size: 50px !important;
+}
+
+.police_sous_titre_home
+{
+	font-size: 30px !important;
+}
+
+.police_paragraphe_home
+{
+	font-size: 22px !important;
+}
+
+@media (min-width: 768px){
+
+.taille-block {
+    width: 85% !important;
+}
+
+}
+
+.stop_center{
+	text-align: left !important;
+}
+
+.center_main_menu{
+	padding-top: 198px !important;
+    padding-bottom: 198px !important;
+}
