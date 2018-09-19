@@ -62,6 +62,16 @@
 	padding-bottom: 0px !important;
 }
 
+.padding_inscription_int_qui{
+	padding-top: 50px !important;
+	padding-bottom: 60px !important;
+}
+
+.padding_inscription_int_col{
+	padding-top: 50px !important;
+	padding-bottom: 0px !important;
+}
+
 .police_titre_home
 {
 	font-size: 50px !important;
