@@ -13,6 +13,16 @@
   top:calc(100%);
 }
 
+.linear-gradient2 {
+	display: block;
+  background: linear-gradient(#f3f3f3, white);
+  width: 85%;
+  height: 4px;
+  position: absolute;
+  top:calc(100%);
+  justify-content: center;
+}
+
 .block_center{
 	margin-left: auto;
  	margin-right: auto;
@@ -107,4 +117,72 @@
 .center_main_menu{
 	padding-top: 198px !important;
     padding-bottom: 198px !important;
+}
+
+.resume
+{
+    padding-top: 20px;
+    border: 1px gray solid;
+}
+
+.nom
+{
+    font-size: 12;
+
+}
+.menu_fix
+{
+    position: fixed;
+    text-align: right;
+    margin-left: 150px;
+    background-color: white;
+
+}
+.posts_fix
+{
+    padding-top: 150px;
+    text-align: center;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.border_resume
+{
+    position: fixed;
+    display: inline-block !important;
+    margin-left: 50px;
+    padding-top: 160px;
+
+}
+
+.border_actions
+{
+    padding-top: 20px;
+    border-top: 1px gray solid;
+    margin-bottom: 0px;
+}
+
+.tendances
+{
+    position: fixed;
+    margin : 0px !important;
+    right: 10px;
+    width: 280px;
+    bottom: 395px;
+}
+
+.tendances article,
+{
+    width: 100vh !important;
+    height: 100vh !important;
+}
+
+.suggestions
+{
+position: fixed;
+    margin : 0px !important;
+    right: 20px;
+    width: 250px;
+    height: 10px;
+    bottom: 300px;
 }
